@@ -1,0 +1,1 @@
+web: gunicorn Fruits.app:app 
