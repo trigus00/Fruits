@@ -6,8 +6,24 @@ app = Flask(__name__)
 
 # create route that renders index.html template
 @app.route("/")
-def echo():
-    return render_template("index.html", text="Serving up cool text from the Flask server!!")
+def home():
+    return render_template("index.html", About = "About" ) 
+
+# @app.route("/about")
+# def about():
+
+# @app.route("/test")
+# def test():
+    
+# @app.route("/train")
+# def train():
+
+# @app.route("/validate")
+# def validate():
+
+# @app.route("/team")
+# def team():
+
 
 
 if __name__ == "__main__":
