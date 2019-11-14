@@ -10,12 +10,14 @@
 * Data Gathering 
 * Data Cleaning 
 * Data Query 
+* Machine Learning 
 
 ### Technologies Used 
 * Javascript
 * HTML 
 * CSS
-* D3.js 
+* Heroku 
+* Pandas 
 
 ## Project Description 
 
