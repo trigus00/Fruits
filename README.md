@@ -46,6 +46,6 @@ Shahzad Naseer
 * LinkedIn: 
 
 Donica Williams
-* Email:
+* Email: donicia.d.williams@gmail.com
 * Github: github.com/Donicia
 * LinkedIn: 
