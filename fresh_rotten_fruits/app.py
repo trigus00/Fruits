@@ -38,7 +38,7 @@ def results():
 
     output_message = ""
 
-    if request.method == "POST":
+    if request.method == "POST": 
         imgstring = request.form["imgtext"]
         imgdata = base64.b64decode(re.sub('^data:image/.+;base64,', '', imgstring))
         image = Image.open(BytesIO(imgdata)).convert('RGB')
@@ -58,7 +58,9 @@ def results():
 
         prediction_message = my_results_name
 
-    return redirect("/", code=302)
+    #return redirect("/", code=302)
+    return redirect('validate')+'#team'
+
 
 # @app.route("/", methods=["GET", "POST"])
 # def home():
@@ -69,8 +71,6 @@ def results():
 #         imgstring = re.sub('^data:image/.+;base64,', '', imgstring)
 #         imgdata = base64.b64decode(imgstring)
 # scipy.misc.imresize(image, (224, 224, 3))
-
-
 
 if __name__ == "__main__":
     app.run()
